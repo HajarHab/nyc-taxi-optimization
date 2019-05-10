@@ -1,0 +1,3 @@
+[submodule "nyc-taxi-cs/www"]
+	path = nyc-taxi-cs/www
+	url = https://github.com/kasperyhr/cloud-frontend

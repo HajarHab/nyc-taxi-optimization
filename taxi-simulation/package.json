@@ -1,0 +1,19 @@
+{
+  "name": "simulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "taxi_simulation.js",
+  "dependencies": {
+    "azure-iot-device": "^1.9.8",
+    "azure-iot-device-mqtt": "^1.9.8",
+    "azure-iothub": "^1.9.8",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

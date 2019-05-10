@@ -1,0 +1,5 @@
+azure-storage-file>=1.4.0
+azure-functions
+azure-functions-worker
+numpy>=1.16.3
+python-dateutil>=2.8.0

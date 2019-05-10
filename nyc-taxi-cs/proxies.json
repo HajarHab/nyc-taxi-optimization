@@ -1,0 +1,16 @@
+{
+    "proxies": {
+        "files": {
+            "matchCondition": {
+                "route": "{*path}"
+            },
+            "backendUri": "https://%WEBSITE_SITE_NAME%.azurewebsites.net/api/StaticFileServer?file={path}"
+        },
+        "ajax": {
+            "matchCondition": {
+                "route": "ajax/query"
+            },
+            "backendUri": "https://nyc-taxi-py2.azurewebsites.net/api/query?code=B6eiK0ePIoGIUPxKwWFF9/zU7ktSNPrajnTmSKklNsNqZgDHmXR/Ow=="
+        }
+    }
+}

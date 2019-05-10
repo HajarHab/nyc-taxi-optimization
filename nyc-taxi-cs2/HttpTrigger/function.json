@@ -1,0 +1,30 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "tripRecordDocument",
+      "databaseName": "TripRecords",
+      "collectionName": "YellowCabs2",
+      "createIfNotExists": false,
+      "connectionStringSetting": "nyc-taxi-db_DOCUMENTDB",
+      "partitionKey": "/year",
+      "collectionThroughput": 400,
+      "direction": "out"
+    }
+  ]
+}
